@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Countdown Launch</title>
+	<script src="dist/js/output.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href='dist/css/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+ <h1>Time until Launch!</h1>
+ <div id="launch"></div>
+
+
+
+ <script type="text/javascript">
+   $("#launch")
+   .countdown("2016/01/01", function(event) {
+     $(this).text(
+       event.strftime('%D days %H:%M:%S')
+     );
+   });
+</script>
+	
+</body>
+</html>

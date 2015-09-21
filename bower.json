@@ -1,0 +1,20 @@
+{
+  "name": "emergingfinal",
+  "version": "0.0.0",
+  "authors": [
+    "carlou5 <carlos52292@hotmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery.countdown": "~2.1.0"
+  },
+  "homepage": "https://github.com/carlou5/emergingfinal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
